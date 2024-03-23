@@ -1,0 +1,16 @@
+img {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: rgba(100, 100, 111, 0.5) 5px 7px 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 20px 20px;
+}
+
+
+
